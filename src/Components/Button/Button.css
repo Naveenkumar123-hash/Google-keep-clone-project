@@ -1,0 +1,18 @@
+#button{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.5rem;
+    gap: 0.5rem;
+    box-shadow: 0 0 5px 1px rgb(230, 205, 207);
+    width:fit-content;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -2.5rem;
+    background-color: white;
+}
+#button button{
+   width: 2rem;
+   height: 2rem;
+   border-radius: 50%;
+}

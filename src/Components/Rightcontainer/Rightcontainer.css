@@ -1,0 +1,41 @@
+#rightcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#inputs{
+    width: 40%;
+    height: 2.5rem;
+}
+
+#inputs input{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 15px 1px rgba(155, 153, 212, 0.5);
+    outline: none;
+    font-size: large;
+    padding: 0.5rem;
+}
+
+#task-modal{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    column-gap: 0.5rem;
+    margin: 3rem;
+    row-gap: 1rem;
+}
+@media screen and (min-width: 0px) and (max-width: 425px) {
+    #task-modal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        row-gap: 1rem;
+    }
+}
